@@ -12,7 +12,7 @@ npm i react-hooks-modal
 
 ## The Gist
 
-```tsx
+```jsx
 import { useModal } from 'react-hooks-modal'
 import { Button, Modal } from 'antd'
 
