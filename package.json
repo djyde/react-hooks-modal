@@ -1,12 +1,16 @@
 {
   "name": "react-hooks-modal",
-  "version": "0.1.0",
+  "version": "0.1.2",
+  "main": "lib/index.js",
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
     "test": "npm run build && jest",
     "prepublish": "npm run test"
   },
+  "files": [
+    "lib"
+  ],
   "peerDependencies": {
     "react": "^16.7"
   },
