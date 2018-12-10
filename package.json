@@ -1,0 +1,25 @@
+{
+  "name": "react-hooks-modal",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "npm run build && jest",
+    "prepublish": "npm run test"
+  },
+  "peerDependencies": {
+    "react": "^16.7"
+  },
+  "devDependencies": {
+    "@types/react": "^16",
+    "@types/react-dom": "^16",
+    "babel-jest": "^23",
+    "babel-preset-env": "^1",
+    "babel-preset-react": "^6",
+    "jest": "^23",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
+    "react-test-renderer": "^16",
+    "typescript": "^3"
+  }
+}
